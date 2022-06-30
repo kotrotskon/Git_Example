@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 textView.setText("Keti");
                 Log.d("Kostas", "Kostas");
+                Log.d("Keti", "Keti");
             }
         });
 
