@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn_kostas = findViewById(R.id.btn_kostas);
         Button btn_gianna = findViewById(R.id.btn_gianna);
         Button btn_keti = findViewById(R.id.btn_keti);
+        Button btn_geoxan = findViewById(R.id.btn_geoxan);
 
         btn_kostas.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 textView.setText("Keti");
+            }
+        });
+
+        btn_geoxan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView.setText("GeoXan");
             }
         });
 

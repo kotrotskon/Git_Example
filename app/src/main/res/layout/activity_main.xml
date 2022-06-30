@@ -35,4 +35,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Keti" />
+
+    <Button
+        android:id="@+id/btn_geoxan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GeoXan" />
 </LinearLayout>
