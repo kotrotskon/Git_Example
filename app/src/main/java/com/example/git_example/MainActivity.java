@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 textView.setText("Keti");
+                Log.d("Kostas", "Kostas");
             }
         });
 
