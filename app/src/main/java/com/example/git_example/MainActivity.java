@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
         Button btn_kostas = findViewById(R.id.btn_kostas);
         Button btn_gianna = findViewById(R.id.btn_gianna);
-
+        Button btn_keti = findViewById(R.id.btn_keti);
 
         btn_kostas.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,5 +33,13 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText("Gianna");
             }
         });
+
+        btn_keti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView.setText("Keti");
+            }
+        });
+
     }
 }
